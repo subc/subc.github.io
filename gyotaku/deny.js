@@ -1,17 +1,24 @@
-function main(){
-    console.info('aaa');
-    console.info($(location).attr('hostname'));
 
+// ホストネームに含まれる文字列
+host_name = 'github.io';
+
+// コピーされたときのredirect先
+redirect_deny_url = 'http://megalodon.jp/';
+redirect_millisec = 5000;
+
+// コピーされたときに表示するメッセージ
+deny_message = '<h3>本ページは削除されました。(・ω<) ﾃﾍﾍﾟﾛ </h3>';
+
+
+function main(){
     // ローカルなら動かさない
     if ($(location).attr('hostname') == ''){
         console.info('is local');
-
-        disable();
         return null;
     }
 
     // ホストが異なるなら実行
-    if ($(location).attr('hostname').match('github')){
+    if ($(location).attr('hostname').match(host_name)){
         console.info('my site');
         return null;
     }else{
@@ -22,20 +29,14 @@ function main(){
 
 function disable(){
     console.info('start disable');
-    // div class mainを非表示に
-    // div class
     // div.mainを書き換え
-    $("div.main").html("<h3>本ページは削除されました。</h3>");
-    // redirect
+    $("div.main").html(deny_message);
+    // 5秒後にredirect
     setTimeout(function(){
         $(document).ready( function() {
-            url = "http://megalodon.jp/";
-            $(location).attr("href", url);
+            $(location).attr("href", redirect_deny_url);
         });
-    },15000);
+    },redirect_millisec);
 }
-
-
-function foo2(){ alert ('2'); }
 
 $(main);
