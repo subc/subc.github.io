@@ -2,23 +2,26 @@
 <head>
 <title>Portfolio</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="./deny.js"></script>
 <script>
+console.info("start");
 
 if (location.hostname == "girlydrop.com") {
 // ここに Google Analytics のコード
 } else {
-
-    var doc = document;
-    var head = doc.getElementsByTagName("head")[0];
-    var meta = doc.createElement("link");
-    meta.setAttribute("rel","stylesheet");
-    meta.setAttribute("href","差し替え用CSSのURL");
-    head.appendChild(meta);
-
-    if (confirm("このWebページは不正コピーされた可能性があります。意図しないサイトに飛ばされる場合がありますので、このページのリンクなどは絶対にクリックせず、写真素材はGIRLY DROP本家でご覧くださいね！不正コピー、ダメ。ゼッタイ！！")==true) {
-    location.href = "http://girlydrop.com/";
-    }
+    console.info("false");
+    console.info("location.hostname");
+//    var doc = document;
+//    var head = doc.getElementsByTagName("head")[0];
+//    var meta = doc.createElement("link");
+//    meta.setAttribute("rel","stylesheet");
+//    meta.setAttribute("href","差し替え用CSSのURL");
+//    head.appendChild(meta);
+//
+//    if (confirm("このWebページは不正コピーされた可能性があります。意図しないサイトに飛ばされる場合がありますので、このページのリンクなどは絶対にクリックせず、写真素材はGIRLY DROP本家でご覧くださいね！不正コピー、ダメ。ゼッタイ！！")==true) {
+//    location.href = "http://girlydrop.com/";
+//    }
 }
 <script>
 
