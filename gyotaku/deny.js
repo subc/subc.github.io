@@ -19,9 +19,11 @@ function main(){
 
     // ホストが異なるなら実行
     if ($(location).attr('hostname').match(host_name)){
+        // 正常
         console.info('my site');
         return null;
     }else{
+        // コピーサイト
         console.info('copy site');
         disable();
     }
