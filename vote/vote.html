@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Qiita記事の投票所</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h3>投票ルール</h3>
+        <p>1. お一人様5記事まで推薦できます.</p>
+        <p>2. 投票期限は3月11日23:59です.</p>
+      </div>
+
+      <form method="POST" action="http://127.0.0.1:5000/vote/">
+
+      <div class="page-header">
+        <h2>AWS/チーム開発/その他</h2>
+      </div>
+      <div class="row">
+        <div class="">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>check</th>
+                <th>title</th>
+                <th>tags</th>
+              </tr>
+            </thead>
+            <tbody>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="61" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/fujimisakari/items/7f16bd617b312e6b1b52">zshでpowerlineとvcs_info(git)を組み合せたプロンプト設定</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-danger">Bash</span>
+                          
+                              <span class="label label-warning">Zsh</span>
+                          
+                              <span class="label label-success">Mac</span>
+                          
+                              <span class="label label-danger">powerline</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="255" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/tetsuya-imamura/items/d291859ee57b96d4c502">請負契約と準委任契約、どっちで契約すればいいの？?請負契約・準委任契約・労働者派遣契約の違い?</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-info">マネジメント</span>
+                          
+                              <span class="label label-warning">契約関連</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="139" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/tadokoro/items/28b3623a5ec58517d4314">マルチスレッドで高速なC#を書くためのロック戦略</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-info">C#</span>
+                          
+                              <span class="label label-warning">マルチスレッド</span>
+                          
+                              <span class="label label-success">高速化</span>
+                          
+                              <span class="label label-success">ロック</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="275" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/kinpira/items/c9e6dc910e8d96e8c19b">Raspberry Piを外部ネットワークからアクセスできる様にした</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-info">RaspberryPi</span>
+                          
+                              <span class="label label-success">ssh公開鍵認証</span>
+                          
+                              <span class="label label-success">MJPG-streamer</span>
+                          
+                              <span class="label label-default">wpa_supplicant</span>
+                          
+                              <span class="label label-warning">ポート解放</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="173" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/506a47ab8c713a325358">Web魚拓が作られた時に、魚拓内容を書き換え強制リダイレクトする</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-primary">HTML</span>
+                          
+                              <span class="label label-default">JavaScript</span>
+                          
+                              <span class="label label-success">jQuery</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="131" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/maaaato/items/9f7cbf89e15c7626e33b">調子にのってDocker化しまくったらしんどかった話</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-info">docker</span>
+                          
+                              <span class="label label-warning">sentry</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="45" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/cooldaemon/items/5b846423b788e037881a">Hubot に権限管理機能を追加し, より安全に使用する</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">CoffeeScript</span>
+                          
+                              <span class="label label-success">Hubot</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="227" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/CkReal/items/dee135aa6d2adf120316">過去の賢人に学ぶ、インフラ運用チームのマネジメント失敗事例</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">TeamGeek</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="91" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/itkr/items/7189107a96fe2dcff55e">共通化でモチベーションと効率が低下した話</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-default">チーム開発</span>
+                          
+                              <span class="label label-warning">team</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="221" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/itkr/items/745d54c781badc148bb9">BigQueryで150万円溶かした人の顔</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-danger">bigquery</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="50" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/maaaato/items/4a8c2f155771cc796418">【AWSシリーズ】RDSのMySQL5.5から5.6へアップグレードする手順とポイント</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-primary">RDS</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="112" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/tadokoro/items/de59fb4426d53dbdb9ae">Linuxサーバで負荷試験するにあたって</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-primary">Linux</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="281" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/kinpira/items/75513eaab6eed19da9a3">簡単にできる！音声認識と音声合成を使ってRaspberrypiと会話</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-info">RaspberryPi</span>
+                          
+                              <span class="label label-primary">音声合成</span>
+                          
+                              <span class="label label-danger">音声認識</span>
+                          
+                              <span class="label label-info">docomoAPI</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="303" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/56fcb578d86abcd0b571">5分で終わらせるCentOS7のfirewalld設定</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-primary">Linux</span>
+                          
+                              <span class="label label-success">CentOS</span>
+                          
+                              <span class="label label-danger">centos7</span>
+                          
+                              <span class="label label-danger">firewalld</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="page-header">
+        <h2>スマホ開発</h2>
+      </div>
+      <div class="row">
+        <div class="">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>check</th>
+                <th>title</th>
+                <th>tags</th>
+              </tr>
+            </thead>
+            <tbody>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="28" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/fujimisakari/items/811e350cbaeb45b6165e">コルーチンについて</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="213" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/tadokoro/items/a7e0cafc72d3db3d1649">今からでも間に合うUnity5のuGUI入門</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-danger">Unity3D</span>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                              <span class="label label-primary">uGUI</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="59" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/okuhiiro/items/11caa6ffae630b744373">UnityでGET, POST通信(+JSON)</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="250" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/kaiware007/items/4c7a4b9862fae84d4023">Unityで「装備品によって見た目が変わる」を実現する（あるいはコスチューム変更）</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                              <span class="label label-warning">Blender</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="85" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/37154ddd65962fb18260">Unityでスマホのマルチプレイ PhotonとTNet比較</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                              <span class="label label-default">Photon</span>
+                          
+                              <span class="label label-default">TNet</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="41" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/fujimisakari/items/d043a2fae31ed740e290">EmacsでUnity開発(c#)するための環境構築</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-default">Emacs</span>
+                          
+                              <span class="label label-info">C#</span>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="27" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/fujimisakari/items/36284ececdb06e3cdb4c">Editor拡張でショートカットキーをカスタマイズ</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="304" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/Takezoh/items/991e431436d386b1347f">チート対策について考えてみる（メモリ改竄編）</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-default">C++</span>
+                          
+                              <span class="label label-success">Android</span>
+                          
+                              <span class="label label-info">C#</span>
+                          
+                              <span class="label label-danger">iOS</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="218" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/Takezoh/items/bf66fb12b47ac37ba528">ネイティブプラグイン開発のススメ (Unity/Cocos2dx)</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Android</span>
+                          
+                              <span class="label label-danger">iOS</span>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                              <span class="label label-success">cocos2d-x</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="19" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/okuhiiro/items/cdab95604b61cb189ad6">かなりいい加減なUnityエラー解決方法</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-warning">Unity</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="page-header">
+        <h2>Python</h2>
+      </div>
+      <div class="row">
+        <div class="">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>check</th>
+                <th>title</th>
+                <th>tags</th>
+              </tr>
+            </thead>
+            <tbody>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="246" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/yamionp/items/f88d50da8d6b548fc44c">最強のPython統合開発環境PyCharm</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-default">Pycharm</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="259" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/kinpira/items/bf1df2c1983ba79ba455">はじめてのRaspberry PIで監視カメラを作ってみた。</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">RaspberryPi</span>
+                          
+                              <span class="label label-info">Slack</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="198" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/e53aa1d9bda77d2efe28">Python - アンチエイリアスで写真をキレイに縮小</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">PIL</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="204" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/643239fc6ebdfe6bce40">【アプリ評価★5を増やす機能】ヘビーユーザにだけレビュー依頼</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-success">Android</span>
+                          
+                              <span class="label label-success">Redis</span>
+                          
+                              <span class="label label-danger">iOS</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="238" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/mishizak/items/4bb0c638105a0b79a682">読みにくいコード改善メモ</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">TDD</span>
+                          
+                              <span class="label label-danger">リファクタリング</span>
+                          
+                              <span class="label label-primary">デザインパターン</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="114" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/fujimisakari/items/0d4786dd9ddeed4eb702">Pythonでメタプログラミング</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="272" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/711cbdb894d1d6839e3e">2016年 独りで新規WEBサービスを開発・運用した際の知見</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-primary">HTML</span>
+                          
+                              <span class="label label-primary">Rails</span>
+                          
+                              <span class="label label-default">Flask</span>
+                          
+                              <span class="label label-info">SEO</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="142" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/a032d94e4f0d862df2b2">pythonと遺伝的アルゴリズムで作るFX自動売買システム その1</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">機械学習</span>
+                          
+                              <span class="label label-warning">自動売買</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="203" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/bcafea63c8a63efb258a">形態素解析型の全文検索エンジンを実装してWikipediaを全文検索</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">自然言語処理</span>
+                          
+                              <span class="label label-primary">機械学習</span>
+                          
+                              <span class="label label-default">検索</span>
+                          
+                              <span class="label label-primary">レコメンド</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="224" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/7c3f9b83cc6e8dc13027">LinuxコマンドをPythonから上手に扱う方法</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="113" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/dfd5d7afc12f1207f450">python システム停止時に電話で自動通知する方法</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="171" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/0cdf006d667ef8a7494e">『簡単・高速』なAmazonっぽいレコメンドcf_recommenderを開発して公開</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">PyPI</span>
+                          
+                              <span class="label label-danger">レコメンド</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="99" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/itkr/items/513318a9b5b92bd56185">PythonとBeautiful Soupでスクレイピング</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-success">スクレイピング</span>
+                          
+                              <span class="label label-danger">BeautifulSoup</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="176" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/0aaf87e9a52ed41b60a7">Python3.5で実装されたasync/awaitを使って軽量スレッドの性能ベンチマーク</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">python3</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="187" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/f5008a57a870e0188f63">【レコメンド】内容ベースと協調フィルタリングの長所と短所・実装方法まとめ</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-primary">自然言語処理</span>
+                          
+                              <span class="label label-info">機械学習</span>
+                          
+                              <span class="label label-danger">レコメンド</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="262" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/bf39a24c74d0b4b756cf">GitHub時代のパスワードを管理する技術</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">AWS</span>
+                          
+                              <span class="label label-default">Security</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="30" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/tadokoro/items/131268c9a0fd1cf85bf4">pythonでjsonを扱う時、日本語をエスケープさせない方法</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">JSON</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="186" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/36982ae65a770565458d">TensorFlow 畳み込みニューラルネットワークで手書き認識率99.2%の分類器を構築</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">機械学習</span>
+                          
+                              <span class="label label-warning">TensorFlow</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="235" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/4298d62cc50768c9f473">Python Webフレームワーク Django vs Pyramid vs Flask 2015年12月</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">Django</span>
+                          
+                              <span class="label label-default">Flask</span>
+                          
+                              <span class="label label-warning">pyramid</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="222" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/c87c646758c6de3029b5">さだまさし川柳の自動生成</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">機械学習</span>
+                          
+                              <span class="label label-default">形態素解析</span>
+                          
+                              <span class="label label-danger">さだまさし</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="254" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/227489e7a9ade9167fb1">ページ内のリンク切れ確認を行うテストコード</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="201" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/5187713bba6cb30532bf">Python - 上位24パッケージの解説と使い方まとめ</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">PyPI</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="53" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/CkReal/items/cb53518f2d504950c09c">Python製負荷試験ツールLocustで、分散負荷試験環境を準備する</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-danger">locust</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="243" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/58882c3c6d83c8601c6f">【Ruby vs Python】RailsとFlaskをベンチマーク比較</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-danger">Ruby</span>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">Django</span>
+                          
+                              <span class="label label-success">Rails</span>
+                          
+                              <span class="label label-default">Flask</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="120" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/cdbf8eb488e0cf6a62fe">協調フィルタリング（レコメンド）をredisとpythonで実装してみた</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-default">Redis</span>
+                          
+                              <span class="label label-warning">Amazon</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="165" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/43bafbb9d74ef3a1f74c">Redis 本番障害から学んだコードレビューの勘所</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-danger">Ruby</span>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-success">Redis</span>
+                          
+                              <span class="label label-warning">AWS</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="160" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/ca7eec8ed09982aec9b5">協調フィルタリング型レコメンドエンジン開発のため仕様について考える</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">レコメンド</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="205" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/eab2a57ffb1bb207c89c">パフォーマンスチューニングでprofiler使わないのは損してると思う</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-info">newrelic</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="126" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/yamionp/items/b10cc17cb0fcb83ba4c5">LocustでWebsocketの負荷試験をする</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-danger">負荷試験</span>
+                          
+                              <span class="label label-danger">locust</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="305" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/646124c1ee5d0dd73064">ウィルス感染でWebサービスが20日間ダウン。本当にごめんなさい</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">CSS</span>
+                          
+                              <span class="label label-primary">Linux</span>
+                          
+                              <span class="label label-default">Flask</span>
+                          
+                              <span class="label label-danger">ウィルス</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="215" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/8370a5eb10a2e24d9b41">【大規模スマホゲー】Python未経験エンジニアとの最初の1ヶ月OJTメモ</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">AWS</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="193" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/999dc8f6177f17f70ac9">【知見共有】GoogleBigQueryの設計ミスでデータサイエンティストの業務効率が低下</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-danger">bigquery</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="256" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/96fe07d408c1d7d2e24e">月額2650円でDBアクセス込み秒間214リクエスト捌くWebサーバ構築事例</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">MySQL</span>
+                          
+                              <span class="label label-success">nginx</span>
+                          
+                              <span class="label label-success">CentOS</span>
+                          
+                              <span class="label label-default">Flask</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+              <tr>
+                <td><input type="checkbox" name="check" value="180" style="margin-left: 10px; width: 25px; height: 25px"></td>
+                <td><a href="http://qiita.com/haminiku/items/b431e9cd1cf4e300f8f0">Airflow - データパイプラインのスケジュールと監視をプログラムしてみた</a></td>
+                  <td>
+                      <p>
+                          
+                              <span class="label label-success">Python</span>
+                          
+                              <span class="label label-warning">AWS</span>
+                          
+                              <span class="label label-success">cron</span>
+                          
+                              <span class="label label-default">Jenkins</span>
+                          
+                              <span class="label label-danger">airflow</span>
+                          
+                      </p>
+                  </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <h4>お名前</h4>
+      <input type="text" name="name" size="20" value="">&nbsp;@gu3<br />
+
+      <input type="submit" value="送信する" style="margin-bottom: 100px; margin-top: 20px; padding: 15px 40px; background-color: #524;color: #fff;border-style: none;">
+    </form>
+    </div>
+
+  </body>
+</html>
+
+
